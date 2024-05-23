@@ -1,0 +1,213 @@
+﻿@model List<Disease>
+<style>
+    .label-required {
+        display: inline-block;
+        width: 150px;
+    }
+
+ 
+</style>
+
+<div class="card mt-0 shadow-lg p-3 mb-5 bg-white rounded">
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            <label for="Name" class="label-required">Name<span style="color: red;">*</span></label>
+            <input type="text" class="form-control" id="Name" placeholder="Enter your name">
+        </div>
+    </div>
+</div>
+<br />
+<div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="DiseasesName" class="label-required">Diseases Name<span style="color: red;">*</span></label>
+                <select class="form-control" id="DiseasesName">
+                    <option value="">Select a disease</option> <!-- Add an empty option -->
+                    @foreach (var disease in Model)
+                    {
+                        <option value="@disease.DId">@disease.Name</option>
+                    }
+                </select>
+            </div>
+        </div>
+</div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="Epilepsy" class="label-required">Epilepsy<span style="color: red;">*</span></label>
+                <select class="form-control" id="Epilepsy">
+                    <option value="">Select Epilepsy</option>
+                    @foreach (var item in ViewBag.Epilepsy)
+                    {
+                        <option value="@item.Value">@item.Text</option>
+                    }
+                   
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 ">
+            <div class="form-group">
+                <label for="OtherNCDS" class="label-required">Other NCDS</label>
+                <select class="form-control" multiple="multiple" id="my-select1" name="my-select[]">
+                    @foreach (var option in ViewBag.NcdList)
+                     {
+                    <option value="@option.NId">@option.Name</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="col-md-4 mt-5">
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <button class="btn-md rounded" onclick="moveSelectedOptions('my-select1', 'my-select2')">Add ></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mt-2 d-flex justify-content-center">
+                    <button class="btn-md rounded" onclick="moveSelectedOptions('my-select2', 'my-select1')">< Delete</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <br>
+                <select class="form-control" multiple="multiple" id="my-select2" name="my-select[]">
+                  
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="Allergies" class="label-required">Allergies<span style="color: red;">*</span></label>
+                <select class="form-control" multiple="multiple" id="my-selectForAllergies1" name="my-selectForAllergies1[]">
+                    @foreach (var option in ViewBag.AlleryList)
+                    {
+                        <option value="@option.AId">@option.Name</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="col-md-4 mt-5">
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <button class="btn-md rounded" onclick="moveValue('my-selectForAllergies1','my-selectFOrAllergies2')">Add ></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mt-2 d-flex justify-content-center">
+                    <button class="btn-md rounded" onclick="moveValue('my-selectFOrAllergies2','my-selectForAllergies1')">< Delete</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-4 ">
+            <br />
+            <div class="form-group">
+                <select class="form-control" multiple="multiple" id="my-selectFOrAllergies2" name="my-selectAllergies2[]">
+                </select>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="container d-flex justify-content-center align-items-center">
+        <button id="saveButton"  class="btn-primary btn-lg">Save</button>
+    </div>
+    <br />
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#my-select1 option:selected").each(function () {
+            data.NCDDetailsList.push({
+                Id: $(this).val()
+            });
+
+        });
+
+        $("#my-selectFOrAllergies2 option:selected").each(function () {
+            data.AllergiesDetailsList.push({
+                Id: $(this).val()
+            });
+        });
+        $("#saveButton").click(function () {
+            debugger;
+            var name = $("#Name").val();
+            var ncdList = ncdList = $("#my-select2").val();
+            var allergyList = $("#my-selectFOrAllergies2").val();
+            var ncdDetailsList = ncdList.map(function (item) {
+                return { Id: item };
+            });
+            var allergyDetailsList = allergyList.map(function (item) {
+                return { Id: item };
+            });
+            var epilepsy = $("#Epilepsy").val();
+            var data = {
+                PId: 0, 
+                Name: $("#Name").val(), 
+                Disease: $("#DiseasesName").val(),
+                Epilepcy: epilepsy,
+                NCDDetailsList: ncdDetailsList,
+                AllergiesDetailsList: allergyDetailsList
+            };
+
+            $.ajax({
+                type: "POST",
+                url: "/Patient/Post",
+                contentType: "application/json",
+                data: JSON.stringify(data),
+                success: function (response) {
+                    swal.fire({
+                        title: "Success!",
+                        text: "Data saved successfully",
+                        icon: "success",
+                        button: "OK",
+                    });
+                },
+                error: function (xhr, status, error) {
+                    swal.fire({
+                        title: "Error!",
+                        text: "An error occurred while saving the data",
+                        icon: "error",
+                        button: "OK",
+                    });
+                }
+            });
+        });
+    });
+    function moveSelectedOptions(fromId, toId) {
+        debugger;
+        var selectFrom = document.getElementById(fromId);
+        var selectTo = document.getElementById(toId);
+
+        var selectedOptions = Array.from(selectFrom.selectedOptions);
+
+        selectedOptions.forEach(option => {
+            selectTo.appendChild(option);
+        });
+    }
+    function moveValue(sourceId, destinationId) {
+        var sourceSelect = document.getElementById(sourceId);
+        var destinationSelect = document.getElementById(destinationId);
+        debugger;
+       
+        for (var i = 0; i < sourceSelect.options.length; i++) {
+            var option = sourceSelect.options[i];
+            if (option.selected) {
+                destinationSelect.appendChild(option);
+                i--;
+            }
+        }
+    }
+
+</script>

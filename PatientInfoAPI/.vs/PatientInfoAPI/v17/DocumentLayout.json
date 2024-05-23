@@ -1,0 +1,318 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\##\\C#\\PatientInfoAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\bussinesslayer\\repository\\picklistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\bussinesslayer\\repository\\picklistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\bussinesslayer\\repository\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\bussinesslayer\\repository\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\model\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\model\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\model\\ncd_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\model\\ncd_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\model\\ncd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\model\\ncd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\model\\diseaseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\model\\diseaseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\model\\allergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\model\\allergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\model\\allergies_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\model\\allergies_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\controllers\\picklistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\controllers\\picklistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\bussinesslayer\\interface\\ipatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\bussinesslayer\\interface\\ipatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\bussinesslayer\\interface\\ipicklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\bussinesslayer\\interface\\ipicklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\migrations\\20240523160042_initt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\migrations\\20240523160042_initt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|e:\\##\\c#\\patientinfoapi\\patientinfoapi\\migrations\\20240523144923_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587FA417-7517-4511-9663-076638FA359B}|PatientInfoAPI\\PatientInfoAPI.csproj|solutionrelative:patientinfoapi\\migrations\\20240523144923_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Allergy.cs",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Model\\Allergy.cs",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\Model\\Allergy.cs",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Model\\Allergy.cs",
+              "RelativeToolTip": "PatientInfoAPI\\Model\\Allergy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T11:34:22.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Allergies_Details.cs",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Model\\Allergies_Details.cs",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\Model\\Allergies_Details.cs",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Model\\Allergies_Details.cs",
+              "RelativeToolTip": "PatientInfoAPI\\Model\\Allergies_Details.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T11:34:31.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PickListController.cs",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Controllers\\PickListController.cs",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\Controllers\\PickListController.cs",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Controllers\\PickListController.cs",
+              "RelativeToolTip": "PatientInfoAPI\\Controllers\\PickListController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T15:18:03.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\appsettings.json",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\appsettings.json",
+              "RelativeToolTip": "PatientInfoAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-21T15:51:11.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NCD.cs",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Model\\NCD.cs",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\Model\\NCD.cs",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Model\\NCD.cs",
+              "RelativeToolTip": "PatientInfoAPI\\Model\\NCD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T11:34:04.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\Controllers\\PatientController.cs",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "PatientInfoAPI\\Controllers\\PatientController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T15:21:51.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\BussinessLayer\\Repository\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\BussinessLayer\\Repository\\PatientRepository.cs",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\BussinessLayer\\Repository\\PatientRepository.cs",
+              "RelativeToolTip": "PatientInfoAPI\\BussinessLayer\\Repository\\PatientRepository.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T16:30:55.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PickListRepository.cs",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\BussinessLayer\\Repository\\PickListRepository.cs",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\BussinessLayer\\Repository\\PickListRepository.cs",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\BussinessLayer\\Repository\\PickListRepository.cs",
+              "RelativeToolTip": "PatientInfoAPI\\BussinessLayer\\Repository\\PickListRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T13:51:46.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DiseaseInfo.cs",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Model\\DiseaseInfo.cs",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\Model\\DiseaseInfo.cs",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Model\\DiseaseInfo.cs",
+              "RelativeToolTip": "PatientInfoAPI\\Model\\DiseaseInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T11:36:11.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\Program.cs",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Program.cs",
+              "RelativeToolTip": "PatientInfoAPI\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAvwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T16:26:07.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PatientInfoAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-21T15:47:09.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240523160042_initt.cs",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Migrations\\20240523160042_initt.cs",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\Migrations\\20240523160042_initt.cs",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Migrations\\20240523160042_initt.cs",
+              "RelativeToolTip": "PatientInfoAPI\\Migrations\\20240523160042_initt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:00:42.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Model\\Patient.cs",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\Model\\Patient.cs",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Model\\Patient.cs",
+              "RelativeToolTip": "PatientInfoAPI\\Model\\Patient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T11:33:55.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240523144923_init.cs",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Migrations\\20240523144923_init.cs",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\Migrations\\20240523144923_init.cs",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Migrations\\20240523144923_init.cs",
+              "RelativeToolTip": "PatientInfoAPI\\Migrations\\20240523144923_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:49:24.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NCD_Details.cs",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Model\\NCD_Details.cs",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\Model\\NCD_Details.cs",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Model\\NCD_Details.cs",
+              "RelativeToolTip": "PatientInfoAPI\\Model\\NCD_Details.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T11:34:13.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IPatient.cs",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\BussinessLayer\\Interface\\IPatient.cs",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\BussinessLayer\\Interface\\IPatient.cs",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\BussinessLayer\\Interface\\IPatient.cs",
+              "RelativeToolTip": "PatientInfoAPI\\BussinessLayer\\Interface\\IPatient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T13:46:17.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IPickList.cs",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\BussinessLayer\\Interface\\IPickList.cs",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\BussinessLayer\\Interface\\IPickList.cs",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\BussinessLayer\\Interface\\IPickList.cs",
+              "RelativeToolTip": "PatientInfoAPI\\BussinessLayer\\Interface\\IPickList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T13:52:05.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PatientInfoAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\##\\C#\\PatientInfoAPI\\PatientInfoAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "PatientInfoAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T11:36:25.9Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
